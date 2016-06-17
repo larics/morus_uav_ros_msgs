@@ -2,7 +2,7 @@ Header header
 
 float32 can_timestamp       # timestamp from the can message in milliseconds (so called monolithic time)    
 
-int8 motor_id	    	    # 11-front, 12-right, 13-back, 14-left
+int8 motor_id	    	    # 1-front, 2-right, 3-back, 4-left
 
 float32 force_M		        # measured force in Newton
 float32 speed_M		        # measured rotational velocity radian per second

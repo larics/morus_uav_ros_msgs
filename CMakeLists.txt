@@ -49,7 +49,10 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
    FILES
    GmStatus.msg
+   GmIgnition.msg
+   GmStarter.msg
    BatteryStatus.msg
+   MmStatus.msg
 )
 
 ## Generate services in the 'srv' folder
