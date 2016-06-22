@@ -53,6 +53,7 @@ add_message_files(
    GmStarter.msg
    BatteryStatus.msg
    MmStatus.msg
+   JoyRefHMI.msg
 )
 
 
