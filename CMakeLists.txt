@@ -54,6 +54,8 @@ add_message_files(
    BatteryStatus.msg
    MmStatus.msg
    JoyRefHMI.msg
+   GmThrottle.msg
+   GmChoke.msg
 )
 
 
