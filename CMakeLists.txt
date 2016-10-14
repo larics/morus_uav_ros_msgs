@@ -56,15 +56,18 @@ add_message_files(
    JoyRefHMI.msg
    GmThrottle.msg
    GmChoke.msg
+   GmSpeed.msg
+   GmPIDcontroller.msg
+   GmParameters.msg
 )
 
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+    FILES
+    SpeedControl.srv
+    GetSetParams.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(

@@ -1,0 +1,6 @@
+uint8 motor_id
+morus_uav_ros_msgs/GmParameters gm_params_sv
+uint8 acu_id_sv
+uint8 get_set_flag		# 0-set, 1-get
+---
+bool ok
