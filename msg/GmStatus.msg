@@ -14,4 +14,4 @@ int8 ignition_S             # setted ignition flag (0-off, 1-on)
 int16 starter_ppm_S         # setted ppm value for e-starter (range 1000-1900)
 float32 speed_S		        # setted reference for gm velocity in radian per second
 float32 throttle_S		    # setted throttle reference 
-
+int8 speed_ctl_S		   	# setted speed controller flag, 0 - speed controller off, 1 - on
