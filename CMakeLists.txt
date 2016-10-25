@@ -67,6 +67,7 @@ add_service_files(
     FILES
     SpeedControl.srv
     GetSetParams.srv
+    FlashUpdate.srv
  )
 
 ## Generate actions in the 'action' folder
