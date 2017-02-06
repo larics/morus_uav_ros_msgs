@@ -59,6 +59,9 @@ add_message_files(
    GmSpeed.msg
    GmPIDcontroller.msg
    GmParameters.msg
+   MmReference.msg
+   MmReferenceArray.msg
+   MmStatusArray.msg
 )
 
 
