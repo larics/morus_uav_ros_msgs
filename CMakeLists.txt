@@ -57,8 +57,6 @@ add_message_files(
    GmThrottle.msg
    GmChoke.msg
    GmSpeed.msg
-   GmPIDcontroller.msg
-   GmParameters.msg
    MmReference.msg
    MmReferenceArray.msg
    MmStatusArray.msg
@@ -69,8 +67,6 @@ add_message_files(
 add_service_files(
     FILES
     SpeedControl.srv
-    GetSetParams.srv
-    FlashUpdate.srv
  )
 
 ## Generate actions in the 'action' folder

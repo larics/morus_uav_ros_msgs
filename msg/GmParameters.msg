@@ -1,7 +1,0 @@
-uint16 choke_open_position
-uint16 choke_close_position
-uint16 throttle_min
-uint16 throttle_max
-uint16 throttle_servo_id
-uint16 choke_servo_id
-morus_uav_ros_msgs/GmPIDcontroller speedController
