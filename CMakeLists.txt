@@ -63,6 +63,8 @@ add_message_files(
    PositionControllerReference.msg
    PoseVelocityEstimated.msg
    ControllerMode.msg
+   PidStatus.msg
+   AttitudeControlStatus.msg
 )
 
 
