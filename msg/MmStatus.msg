@@ -5,8 +5,6 @@
 
 Header header
 
-float32 can_timestamp       # timestamp from the can message in milliseconds
-
 int8 actuator_id         # 1 - front, 2 - right, 3 - back, 4-left
 
 float32 position_M        # meter 

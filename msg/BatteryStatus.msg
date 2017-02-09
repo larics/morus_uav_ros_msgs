@@ -1,6 +1,5 @@
 Header header
 
-float32 can_timestamp       # timestamp from the can message in milliseconds (so called monolithic time)  
 int8 battery_id             # 1-front arm, 2-right arm, 3-back arm, 4-left arm
 float32 voltage             # battery voltage (V)
 float32 current             # battery current (A)
