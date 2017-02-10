@@ -61,7 +61,6 @@ add_message_files(
    MmReferenceArray.msg
    MmStatusArray.msg
    PositionControllerReference.msg
-   PoseVelocityEstimated.msg
    ControllerMode.msg
    PidStatus.msg
    AttitudeControlStatus.msg
