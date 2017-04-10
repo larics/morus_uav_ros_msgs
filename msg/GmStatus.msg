@@ -9,6 +9,7 @@ float32 temperatureL_M	    # measured temperature left cylinder in Celsius degre
 float32 fuel_level_M 	    # measured fuel level in % (range 0-1)
 float32 throttle_M 	    	# measured throttle (0-1)
 int8 choke_M				# measured choke position (open/close)
+float32 engine_hours		# total engine hours of gas motor
 
 int8 ignition_S             # set ignition flag (0-off, 1-on)
 int16 starter_ppm_S         # set ppm value for e-starter (range 1000-1900)
