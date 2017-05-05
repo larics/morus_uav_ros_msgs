@@ -64,6 +64,7 @@ add_message_files(
    ControllerMode.msg
    PidStatus.msg
    AttitudeControlStatus.msg
+   PositionControlStatus.msg
 )
 
 
