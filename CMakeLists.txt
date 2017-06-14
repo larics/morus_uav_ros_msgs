@@ -65,6 +65,7 @@ add_message_files(
    PidStatus.msg
    AttitudeControlStatus.msg
    PositionControlStatus.msg
+   GmFuelStatus.msg
 )
 
 
