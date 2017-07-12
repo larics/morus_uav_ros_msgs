@@ -66,6 +66,7 @@ add_message_files(
    AttitudeControlStatus.msg
    PositionControlStatus.msg
    GmFuelStatus.msg
+   MmPosition.msg
 )
 
 
@@ -73,6 +74,7 @@ add_message_files(
 add_service_files(
     FILES
     SpeedControl.srv
+    MmCalibration.srv
  )
 
 ## Generate actions in the 'action' folder
