@@ -1,0 +1,4 @@
+int8 node_id
+int8 n          # number of elements
+---
+bool ok
